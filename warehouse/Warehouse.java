@@ -1,22 +1,12 @@
-/**
- * 
- */
 package warehouse;
 
 import java.util.ArrayList;
 
-/**
- * @author Lukas Kalvelage
- *
- */
 public class Warehouse {
 
 	static int containerCount;
 	ArrayList<Container> containerCatalogue;
 	
-	/**
-	 * 
-	 */
 	public Warehouse() {
 		containerCount = 0;
 		containerCatalogue = new ArrayList<Container>();
@@ -50,11 +40,7 @@ public class Warehouse {
 		return warehouseString;
 	}
 	
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		var wareTest = new Warehouse();
 		
 		wareTest.addContainer(2, "Oldenburg");
