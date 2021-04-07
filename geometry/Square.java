@@ -1,9 +1,9 @@
 package geometry;
 
-public class ShapeSquare extends Shape{
+public class Square extends Shape{
 	private double width;
 	
-	public ShapeSquare(double x, double y, double width) {
+	public Square(double x, double y, double width) {
 		super (x, y);
 		this.width = width;
 	}

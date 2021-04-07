@@ -1,10 +1,10 @@
 package geometry;
 
-public class ShapeRectangle extends Shape{
+public class Rectangle extends Shape{
 	private double height;
 	private double width;
 	
-	public ShapeRectangle(double x, double y, double width, double height) {
+	public Rectangle(double x, double y, double width, double height) {
 		super(x, y);
 		this.width = width;
 		this.height = height;
@@ -14,7 +14,7 @@ public class ShapeRectangle extends Shape{
 		return this.height;
 	}
 
-	private double getWidth() {
+	public double getWidth() {
 		return this.width;
 	}
 	

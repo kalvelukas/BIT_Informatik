@@ -1,9 +1,9 @@
 package geometry;
 
-public class ShapeCircle extends Shape {
+public class Circle extends Shape {
 	private double radius;
 	
-	public ShapeCircle(double x, double y, double radius) {
+	public Circle(double x, double y, double radius) {
 		super(x, y);
 		this.radius = radius;
 	}
